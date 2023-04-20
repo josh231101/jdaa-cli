@@ -29,7 +29,6 @@ async function welcome() {
   `);
 }
 
-//Learn this
 async function askName() {
     const answers = await inquirer.prompt({
       name: 'player_name',
@@ -147,9 +146,6 @@ async function askName() {
       process.exit(0);
     });
   }
-//🤗
-
-//learn this
 console.clear();
 await welcome();
 await askName();
